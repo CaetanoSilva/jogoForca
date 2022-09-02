@@ -11,4 +11,38 @@ body{
   left: 40px;
   top: 40px;
 }
-
+button{
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  gap: 8px;
+  border-radius: 24px;
+  font-family: 'Inter';
+  text-align: center;
+  font-size: 16px;
+  position: absolute;
+}
+.btn-comecar{
+  width: 317px;
+  height: 105px;
+  left: 562px;
+  top: 394px;
+  background: #0A3871;
+  color: #FFFFFF;
+}
+.btn-palavra{
+  width: 317px;
+  height: 105px;
+  left: 562px;
+  top: 528px;
+  background: #FFFFFF;
+  color: #0A3871;
+}
+footer{
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 24px;
+  text-align: center;
+  position: relative;
+  top: 700px;
+}
