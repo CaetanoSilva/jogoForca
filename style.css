@@ -1,0 +1,14 @@
+body{
+  font-family: 'montserrat',sans-serif;
+  position: relative;
+  width: 1440px;
+  height:1024px;
+}
+.imgLogo{
+  position: absolute;
+  width: 120px;
+  height: 48px;
+  left: 40px;
+  top: 40px;
+}
+
