@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 body{
   font-family: 'montserrat',sans-serif;
   position: relative;
@@ -26,7 +27,7 @@ button{
   width: 317px;
   height: 105px;
   left: 562px;
-  top: 394px;
+  top: 128px;
   background: #0A3871;
   color: #FFFFFF;
 }
@@ -34,15 +35,35 @@ button{
   width: 317px;
   height: 105px;
   left: 562px;
-  top: 528px;
+  top: 294px;
   background: #FFFFFF;
   color: #0A3871;
 }
+
 footer{
   flex-direction: row;
   align-items: flex-start;
   padding: 24px;
   text-align: center;
   position: relative;
-  top: 700px;
+  top: 500px;
+}
+footer img {
+  width: 50px;
+  position: static;
+  align-items: flex-start;
+}
+/*Tela de cadastro*/
+
+@media screen and (max-width: 992px) {
+  footer{
+    top: 480px;
+    position: static;
+  }  
+  .btn-comecar{
+    top: 294px;
+  }
+  .btn-palavra{
+    top: 128px;
+  }
 }
