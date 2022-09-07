@@ -80,7 +80,7 @@ footer img {
   left: 376px;
   top: 400px;
 }
-.btn-salvar{
+.btn-padrao1{
   width: 317px;
   height: 67px;
   left: 376px;
@@ -88,18 +88,14 @@ footer img {
   background: #0A3871;
   color: #FFFFFF;
 }
-.btn-cancelar{
-  
+.btn-padrao2{
+  width: 317px;
+  height: 67px;
+  left: 716px;
+  top: 451px;
+  background: #FFFFFF;
+  color: #0A3871;
 }
 @media screen and (max-width: 992px) {
-  footer{
-    top: 480px;
-    position: static;
-  }  
-  .btn-comecar{
-    top: 294px;
-  }
-  .btn-palavra{
-    top: 128px;
-  }
+  
 }
